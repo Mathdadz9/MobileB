@@ -1,29 +1,30 @@
 ## Curso Mobile
- - Introdução a POO
+- Introdução a POO(Programação Orientada ao Objeto)
     - Java 
-        - Insalação e Configuração
-        - Lógica de Programação em Java(calculadora)
+        - Instalação e Configuração
+        - Lógica de programação em Java(calculadora)
         - Conceitos:
             - classe
-            - objeto 
-            - Herança 
+            - objeto
+            - herança
             - polimorfismo
             - encapsulamento
             - abstração
- - Introdução a aplicativos Mobile
-    - Tipos de DEsenvolvimento
+- Introdução a Aplicativos Mobile
+    - Tipos de Desenvolvimento:
         - Nativo
             - Android:
                 - IDE: Android Studio
                 - SDK: Android SDK
                 - Linguagens: Kotlin / Java
                 - Plataformas: Win / Linux / Mac
-            - Ios:
+            - Ios: 
                 - IDE: Xcode
                 - SDK: Cocoa Touch
-                - Linguagens: Swift / objc
-                - Plataformas: Mac
-        - Multiplataformas:
+                - Linguagns: Swift / ObjC
+                - Plataforma: Mac
+        
+        - Multiplataforma:
             - React Native
                 - Linguagem: JavaScript
                 - SDK: node.js
@@ -31,5 +32,13 @@
             - Flutter (Nosso)
                 - Linguagem: Dart
                 - SDK: Flutter SDK
-                - Resultado: Android / Ios / Web / Win / Mac / Linux
-            - Ionic - (! aplicativos nativos)
+                - Resultado: Android / Ios/ Web / Win / Mac / Linux
+            - Ionic - (!Aplicativos Nativos)
+                - Linguagem: JavaScript
+                - SDK: Node.js
+                - Resultado: Android / Ios / Web ( não Nativos - RunTime)
+
+    - Estrutura de Aplicativos Mobile
+        - Scaffold: - flutter create --platforms=android --empty exemplo_widget_scaffold
+                    - cd exemplo_widget_scaffold
+                    - code . (abrir em uma nova janela - Sempre)
