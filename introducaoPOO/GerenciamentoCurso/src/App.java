@@ -1,3 +1,4 @@
+import Model.Pessoa;
 import View.CursoView;
 
 public class App {

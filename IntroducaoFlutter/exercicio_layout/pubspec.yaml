@@ -1,19 +1,14 @@
 name: exercicio_layout
 description: "A new Flutter project."
-publish_to: 'none' # Não publicar este projeto no pub.dev
-version: 0.1.0+1
+publish_to: 'none'
+version: 0.1.0
 
 environment:
-  sdk: ">=3.7.0 <4.0.0" # Definindo a versão do SDK Flutter compatível
+  sdk: ^3.7.0
 
 dependencies:
   flutter:
     sdk: flutter
-
-  # Dependências adicionais (se precisar de pacotes extras)
-  # Adicionar pacotes conforme necessário, por exemplo:
-  # http: ^0.14.0
-  # firebase_core: ^2.10.0
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +17,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Assets e fontes (se necessário)
-  # assets:
-  #   - assets/images/
-  #   - assets/icons/
