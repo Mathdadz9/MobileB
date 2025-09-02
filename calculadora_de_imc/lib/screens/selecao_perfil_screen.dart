@@ -57,8 +57,8 @@ class _SelecaoPerfilScreenState extends State<SelecaoPerfilScreen> {
           );
           setState(() {}); // Atualiza a lista após cadastrar novo usuário
         },
-        child: const Icon(Icons.person_add),
         tooltip: 'Novo Usuário',
+        child: const Icon(Icons.person_add),
       ),
     );
   }

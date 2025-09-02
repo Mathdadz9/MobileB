@@ -11,8 +11,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final perfil = ModalRoute.of(context)!.settings.arguments as Perfil;
-    final PesoController _pesoController = PesoController();
-    final PerfilController _perfilController = PerfilController();
+    final PesoController pesoController = PesoController();
+    final PerfilController perfilController = PerfilController();
 
     DateTime? data;
     try {
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               );
               if (confirm == true) {
-                await _pesoController.apagarPesosDoPerfil(perfil.id!);
+                await pesoController.apagarPesosDoPerfil(perfil.id!);
                 // Atualiza a tela
                 (context as Element).reassemble();
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               );
               if (confirm == true) {
-                await _perfilController.apagarPerfil(perfil.id!);
+                await perfilController.apagarPerfil(perfil.id!);
                 Navigator.popUntil(context, ModalRoute.withName('/'));
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Perfil apagado com sucesso!')),
@@ -112,7 +112,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 8),
             Expanded(
               child: FutureBuilder<List<Peso>>(
-                future: _pesoController.listarPesosDoPerfil(perfil.id!),
+                future: pesoController.listarPesosDoPerfil(perfil.id!),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const Center(child: CircularProgressIndicator());
@@ -153,8 +153,8 @@ class HomeScreen extends StatelessWidget {
             );
           }
         },
-        child: const Icon(Icons.add),
         tooltip: 'Registrar novo peso',
+        child: const Icon(Icons.add),
       ),
     );
   }
