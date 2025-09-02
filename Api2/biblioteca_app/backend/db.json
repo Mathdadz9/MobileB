@@ -1,0 +1,43 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Mariana Pereira",
+      "email": "mariana@gmail.com"
+    },
+    {
+      "id": "4",
+      "nome": "Matheus",
+      "email": "matheus@gmail.com"
+    },
+    {
+      "id": "1756820636643",
+      "nome": "joao",
+      "email": "joao@gmail.com"
+    }
+  ],
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "O Guia do Mochileiro das Galáxias",
+      "autor": "Douglas Adams",
+      "disponivel": false
+    },
+    {
+      "id": "2",
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "autor": "Machado de Assis",
+      "disponivel": true
+    }
+  ],
+  "emprestimos": [
+    {
+      "id": "1",
+      "usuarioId": 1,
+      "livroId": 1,
+      "dataEmprestismo": "2025-08-26",
+      "dataDevolucao": "2025-09-05",
+      "devolvido": false
+    }
+  ]
+}
