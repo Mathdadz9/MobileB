@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../models/perfil.dart';
 import '../controller/perfil_controller.dart';
 import 'cadastro_perfil_screen.dart';
-import 'home_screen.dart';
 
 class SelecaoPerfilScreen extends StatefulWidget {
   const SelecaoPerfilScreen({super.key});
