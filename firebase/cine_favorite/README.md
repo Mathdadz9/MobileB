@@ -104,9 +104,29 @@ graph TD
     User --> caso6
     User --> caso7
 
+    caso1 --> caso2
+    caso2 --> caso3
+    caso2 --> caso4
+    caso2 --> caso5
+    caso2 --> caso6
+    caso2 --> caso7
 ```
 
 3. ### Fluxo 
+    Determina o Caminho percorrito pelo ator para executar uma ação
+    - Ação de login 
+
+```mermaid
+    
+    A[Ínicio] --> B {Login Usuário}
+    B --> C[Inserir Email e Senha] 
+    C --> D{Validar as Credenciais}
+    D --> E[Sim]
+    E --> F[Tela de Favoritos]
+    D --> G[Não]
+    G --> B
+```
+
 
 ## Prototipagem 
 
