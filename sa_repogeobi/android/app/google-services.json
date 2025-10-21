@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "958791657203",
+    "project_id": "sarepogebi-d1a8e",
+    "storage_bucket": "sarepogebi-d1a8e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958791657203:android:dea805985e0ed156a67986",
+        "android_client_info": {
+          "package_name": "com.example.sa_repogeobi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYmhZv6zvM-xtJjYsaWNITZiG18q7eRDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

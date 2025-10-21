@@ -1,0 +1,41 @@
+name: sa_repogeobi
+description: App de Registro de Ponto com Geolocalização e Biometria
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+
+  # Firebase
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+
+  # Geolocalização
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+
+  # Biometria e permissões
+  local_auth: ^3.0.0
+  permission_handler: ^12.0.1
+
+  # Mapas
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+
+  # Utilidades
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

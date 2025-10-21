@@ -42,7 +42,7 @@ void _getLocation() async{
   //se a permissão foi liberada
   Position position = await Geolocator.getCurrentPosition();
   locationMessage = "Localização Atual: Latitude - ${position.latitude}"
-                    + ", Longitude - ${position.longitude}";
+                    ", Longitude - ${position.longitude}";
 }
 
 void _getClima() async{
